@@ -22,15 +22,15 @@ public class Student {
     private String address;
 
     @OneToMany(mappedBy = "student")
-    @JsonManagedReference
+    @JsonManagedReference(value="student-inscriptions")
     private List<Inscription> inscriptions;
 
     @OneToMany(mappedBy = "student")
-    @JsonManagedReference
+    @JsonManagedReference(value="student-assistances")
     private List<Assistance> assistances;
 
     @OneToMany(mappedBy = "student")
-    @JsonManagedReference
+    @JsonManagedReference(value="student-grades")
     private List<Grade> grades;
 
     @OneToOne
