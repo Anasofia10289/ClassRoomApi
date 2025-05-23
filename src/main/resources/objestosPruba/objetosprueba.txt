@@ -1,7 +1,7 @@
 /users
 {
-    "email":"Christian Ramos Arias",
-    "name":"christian@gmail.com",
+    "email":"anasofiaacevedoquiroz086@gmail.com",
+    "name":"Ana Sofia",
     "password":"admin123*",
     "phoneNumber":"32259623432",
     "userType":"Docente"
